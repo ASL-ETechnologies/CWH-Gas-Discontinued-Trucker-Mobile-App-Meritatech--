@@ -73,31 +73,142 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyPosBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/MyPosBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6018">
-              <caret line="366" column="51" lean-forward="false" selection-start-line="366" selection-start-column="51" selection-end-line="366" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DatabaseObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="71" column="49" lean-forward="false" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+            <state relative-caret-position="2278">
+              <caret line="223" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+              <folding>
+                <element signature="method#buildInClause#0;class#DatabaseObject#0" expanded="false" />
+                <element signature="method#findAllRecords#0;class#DatabaseObject#0" expanded="false" />
+                <element signature="method#findById#0;class#DatabaseObject#0" expanded="false" />
+                <element signature="method#findById#1;class#DatabaseObject#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DataModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4488">
+              <caret line="328" column="34" lean-forward="false" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="34" />
+              <folding>
+                <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+                <marker date="1530096867189" expanded="true" signature="4436:4683" ph="{...}" />
+                <marker date="1530096867189" expanded="true" signature="4551:4661" ph="{...}" />
+                <marker date="1530096867189" expanded="true" signature="5451:5694" ph="{...}" />
+                <marker date="1530096867189" expanded="true" signature="5505:5683" ph="{...}" />
+                <marker date="1530096867189" expanded="true" signature="5993:6105" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvoiceCreateFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="1392" column="64" lean-forward="false" selection-start-line="1392" selection-start-column="64" selection-end-line="1392" selection-end-column="64" />
+              <folding>
+                <element signature="e#7534#8604#0" expanded="true" />
+                <element signature="e#8603#8604#0" expanded="true" />
+                <element signature="e#8644#9164#0" expanded="true" />
+                <element signature="e#9163#9164#0" expanded="true" />
+                <element signature="e#10520#10962#0" expanded="true" />
+                <element signature="e#10961#10962#0" expanded="true" />
+                <element signature="e#17931#17942#0" expanded="true" />
+                <element signature="e#40414#40969#0" expanded="true" />
+                <element signature="e#40968#40969#0" expanded="true" />
+                <element signature="e#41026#41231#0" expanded="true" />
+                <element signature="e#41230#41231#0" expanded="true" />
+                <element signature="e#42816#43068#0" expanded="true" />
+                <element signature="e#43067#43068#0" expanded="true" />
+                <element signature="e#44048#44327#0" expanded="true" />
+                <element signature="e#44326#44327#0" expanded="true" />
+                <element signature="e#44389#44661#0" expanded="true" />
+                <element signature="e#44660#44661#0" expanded="true" />
+                <element signature="e#45380#45645#0" expanded="true" />
+                <element signature="e#45644#45645#0" expanded="true" />
+                <element signature="e#51868#51879#0" expanded="true" />
+                <element signature="e#51950#51965#0" expanded="true" />
+                <element signature="e#54437#54466#0" expanded="true" />
+                <element signature="e#66293#66304#0" expanded="true" />
+                <element signature="e#75903#76740#0" expanded="true" />
+                <element signature="e#76739#76740#0" expanded="true" />
+                <element signature="e#85739#86627#0" expanded="true" />
+                <element signature="e#86626#86627#0" expanded="true" />
+                <element signature="e#93281#93586#0" expanded="true" />
+                <element signature="e#93585#93586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_invoice_create.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2108">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="601" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchemaGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/database/SchemaGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4182">
+              <caret line="268" column="31" lean-forward="false" selection-start-line="268" selection-start-column="31" selection-end-line="268" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -108,79 +219,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3519">
               <caret line="275" column="73" lean-forward="false" selection-start-line="275" selection-start-column="73" selection-end-line="275" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesOrderStatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/enums/SalesOrderStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceCreateFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30124">
-              <caret line="1872" column="56" lean-forward="false" selection-start-line="1872" selection-start-column="50" selection-end-line="1872" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
               <folding>
-                <marker date="1525274191764" expanded="false" signature="1018:1036" ph="&quot;MyRewardzPOS&quot;" />
-                <marker date="1525274191764" expanded="false" signature="1270:1309" ph="&quot;11717000&quot;" />
-                <marker date="1525274191764" expanded="false" signature="1668:1686" ph="&quot;MyRewardzPOS&quot;" />
-                <marker date="1525274191764" expanded="false" signature="2117:2155" ph="&quot;ServiceOrderActivity&quot;" />
-                <marker date="1525274191764" expanded="false" signature="2362:2392" ph="&quot;Sign in&quot;" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3372#3373#0" expanded="false" />
+                <element signature="e#3421#3422#0" expanded="false" />
+                <element signature="e#3475#3476#0" expanded="false" />
+                <element signature="e#3506#3507#0" expanded="false" />
+                <element signature="e#3549#3550#0" expanded="false" />
+                <element signature="e#3580#3581#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customerlistlayout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/customerlistlayout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDialogFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/CustomerDialogFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesInvoiceRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/SalesInvoiceRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="29" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -199,8 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this devices's loc</find>
-      <find>this devices's loca</find>
       <find>this devices's locat</find>
       <find>this devices's locati</find>
       <find>this devices's locatio</find>
@@ -229,6 +274,8 @@
       <find>-1</find>
       <find>GetCustomerPoints</find>
       <find>MyPosBase.GetCustomerPointsHistory</find>
+      <find>databaseOb</find>
+      <find>onClick</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2032,7 +2079,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesOrder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterInventoryDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/UploadBackGroundService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/inventorymainlayout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_inventory.xml" />
@@ -2048,19 +2094,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesInvoice.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/CustomerDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/MyPosBase.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="x" value="-1928" />
+    <option name="y" value="119" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2078,6 +2125,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2156,9 +2206,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2279,7 +2326,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myrewardzpos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2318,7 +2451,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="42008d8bfcbb935d" />
-    <property name="last_opened_file_path" value="F:/video app/CameraView-master/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DVR2018" />
     <property name="ExportApk.ApkPath" value="F:\trunk\MyRewardsPOSNEW\MyRewardzPOS2\app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
@@ -2461,8 +2594,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529569962184" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531457892513" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2509,8 +2641,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529569962185" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531457892513" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2671,8 +2802,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529569962191" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531457892515" />
       </method>
     </configuration>
     <list size="2">
@@ -2729,37 +2859,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-1928" y="119" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30942896" sideWeight="0.48200515" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152762" sideWeight="0.119936034" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2332905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06609808" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.88006395" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.88006395" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30942896" sideWeight="0.48200515" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32345015" sideWeight="0.4877892" order="1" side_tool="false" content_ui="tabs" />
@@ -2854,13 +2984,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InventotyDialogFragment.java</url>
-          <line>217</line>
+          <line>205</line>
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java</url>
-          <line>319</line>
+          <line>382</line>
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -2878,7 +3008,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/LoginActivity.java</url>
-          <line>446</line>
+          <line>452</line>
           <properties />
           <option name="timeStamp" value="416" />
         </line-breakpoint>
@@ -2962,7 +3092,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/CustomerRecordListAPI.java</url>
-          <line>242</line>
+          <line>212</line>
           <properties />
           <option name="timeStamp" value="712" />
         </line-breakpoint>
@@ -2974,19 +3104,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterInventoryDialog.java</url>
-          <line>150</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="759" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/UploadBackGroundService.java</url>
-          <line>165</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="778" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java</url>
-          <line>184</line>
+          <line>247</line>
           <properties />
           <option name="timeStamp" value="781" />
         </line-breakpoint>
@@ -2998,7 +3128,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java</url>
-          <line>1199</line>
+          <line>1192</line>
           <properties />
           <option name="timeStamp" value="783" />
         </line-breakpoint>
@@ -3018,7 +3148,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java</url>
-          <line>1452</line>
+          <line>1518</line>
           <properties class="com.meritatech.myrewardzpos.InvoiceCreateFragment">
             <option name="EMULATED" value="true" />
           </properties>
@@ -3026,15 +3156,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/HomeFragment.java</url>
-          <line>518</line>
-          <properties class="com.meritatech.myrewardzpos.HomeFragment">
+          <line>498</line>
+          <properties>
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="274" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java</url>
-          <line>1359</line>
+          <line>1425</line>
           <properties class="com.meritatech.myrewardzpos.InvoiceCreateFragment">
             <option name="EMULATED" value="true" />
           </properties>
@@ -3067,52 +3197,11 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/android/support/v4/app/FragmentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36329">
-          <caret line="2230" column="0" lean-forward="false" selection-start-line="2230" selection-start-column="0" selection-end-line="2230" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/global/VariableData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/android/support/v4/app/FragmentTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
           <caret line="92" column="22" lean-forward="true" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/customer_menu.xml">
@@ -3129,16 +3218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="144" column="3" lean-forward="false" selection-start-line="144" selection-start-column="3" selection-end-line="151" selection-end-column="35" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3325,86 +3404,55 @@
         <state relative-caret-position="1615">
           <caret line="178" column="91" lean-forward="false" selection-start-line="178" selection-start-column="91" selection-end-line="178" selection-end-column="91" />
           <folding>
-            <marker date="1527172753428" expanded="true" signature="6981:7214" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="7048:7204" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="7307:21859" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="7361:21849" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="9092:9794" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="9170:9772" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="10922:21813" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="11077:21636" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="12619:19681" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="12868:19643" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="19791:21433" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="19965:21395" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="21763:21791" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="21904:21987" ph="{...}" />
-            <marker date="1527172753428" expanded="false" signature="21935:21954" ph=" { " />
-            <marker date="1527172753428" expanded="false" signature="21963:21977" ph=" }" />
-            <marker date="1527172753428" expanded="true" signature="22218:26692" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="22383:26682" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="26774:27941" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="26892:27931" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="29193:29299" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="29193:29289" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="29193:29279" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="29345:31471" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="30557:31451" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="30692:31164" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="31273:31437" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="31588:31688" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="31747:32073" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="32116:32175" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="32202:33376" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="33383:33431" ph="@{...}" />
-            <marker date="1527172753428" expanded="true" signature="33480:35013" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="35057:36431" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="35110:36422" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="35142:36412" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="35466:35989" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="35616:35963" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="36078:36306" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="36200:36280" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="36437:36899" ph="/**...*/" />
-            <marker date="1527172753428" expanded="true" signature="36951:37050" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="37094:39296" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="39265:39296" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="39353:39574" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="39618:39682" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="39724:39784" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="39853:39953" ph="{...}" />
-            <marker date="1527172753428" expanded="true" signature="39999:40067" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
-          <folding>
-            <marker date="1527172753486" expanded="true" signature="4436:4683" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="4551:4661" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="5451:5694" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="5505:5683" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="5993:6105" ph="//..." />
-            <marker date="1527172753486" expanded="true" signature="6996:7197" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="7249:7393" ph="//..." />
-            <marker date="1527172753486" expanded="true" signature="7606:8546" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="8179:8427" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="8302:8401" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="8613:8776" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="8848:9271" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="8858:9054" ph="//..." />
-            <marker date="1527172753486" expanded="true" signature="9394:11904" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11083:11867" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11115:11857" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11593:11823" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11612:11620" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11684:11692" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11762:11770" ph="{...}" />
-            <marker date="1527172753486" expanded="true" signature="11865:11937" ph="{...}" />
-            <marker date="1527172753486" expanded="false" signature="12465:12471" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="6109:6342" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="6176:6332" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="6435:20987" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="6489:20977" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="8220:8922" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="8298:8900" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="10050:20941" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="10205:20764" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="11747:18809" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="11996:18771" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="18919:20561" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="19093:20523" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="20891:20919" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="21032:21115" ph="{...}" />
+            <marker date="1530096867170" expanded="false" signature="21063:21082" ph=" { " />
+            <marker date="1530096867170" expanded="false" signature="21091:21105" ph=" }" />
+            <marker date="1530096867170" expanded="true" signature="21346:25820" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="21511:25810" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="25902:27069" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="26020:27059" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="28321:28427" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="28321:28417" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="28321:28407" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="28473:30599" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="29685:30579" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="29820:30292" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="30401:30565" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="30716:30816" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="30875:31201" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="31244:31303" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="31330:32504" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="32511:32559" ph="@{...}" />
+            <marker date="1530096867170" expanded="true" signature="32608:34141" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="34185:35559" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="34238:35550" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="34270:35540" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="34594:35117" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="34744:35091" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="35206:35434" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="35328:35408" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="35565:36027" ph="/**...*/" />
+            <marker date="1530096867170" expanded="true" signature="36079:36178" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="36222:38424" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="38393:38424" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="38481:38702" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="38746:38810" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="38852:38912" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="38981:39081" ph="{...}" />
+            <marker date="1530096867170" expanded="true" signature="39127:39195" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3415,14 +3463,14 @@
           <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1527172753465" expanded="true" signature="14480:18895" ph="{...}" />
-            <marker date="1527172753465" expanded="true" signature="14619:18349" ph="{...}" />
-            <marker date="1527172753465" expanded="true" signature="17307:18349" ph="{...}" />
-            <marker date="1527172753465" expanded="true" signature="18463:18877" ph="{...}" />
-            <marker date="1527172753465" expanded="true" signature="19055:20022" ph="{...}" />
-            <marker date="1527172753465" expanded="true" signature="19436:19530" ph="//..." />
-            <marker date="1527172753465" expanded="true" signature="20102:20547" ph="{...}" />
-            <marker date="1527172753465" expanded="true" signature="20604:20678" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="17659:19246" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="17659:18700" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="17659:18700" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="18814:19228" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="19406:20373" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="19787:19881" ph="//..." />
+            <marker date="1530096867187" expanded="true" signature="20453:20898" ph="{...}" />
+            <marker date="1530096867187" expanded="true" signature="20955:21029" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3443,19 +3491,8 @@
           <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1527172753560" expanded="true" signature="10712:10798" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="10840:16287" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="10981:16171" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="11017:16156" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="11072:16136" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="11150:16114" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="16293:16316" ph="@{...}" />
-            <marker date="1527172753560" expanded="false" signature="16357:16368" ph=" { " />
-            <marker date="1527172753560" expanded="false" signature="16380:16386" ph=" }" />
-            <marker date="1527172753560" expanded="true" signature="16470:16822" ph="{...}" />
-            <marker date="1527172753560" expanded="true" signature="16686:16806" ph="{...}" />
-            <marker date="1527172753560" expanded="false" signature="16739:16758" ph=" { " />
-            <marker date="1527172753560" expanded="false" signature="16782:16796" ph=" }" />
+            <marker date="1530096867193" expanded="true" signature="10712:10798" ph="{...}" />
+            <marker date="1530096867193" expanded="true" signature="15190:15196" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3493,21 +3530,21 @@
         <state relative-caret-position="776">
           <caret line="129" column="53" lean-forward="false" selection-start-line="129" selection-start-column="53" selection-end-line="129" selection-end-column="53" />
           <folding>
-            <marker date="1527172753590" expanded="false" signature="6128:6239" ph="(view) → {" />
-            <marker date="1527172753590" expanded="false" signature="6314:6337" ph="}" />
-            <marker date="1527172753590" expanded="false" signature="6387:6498" ph="(view) → {" />
-            <marker date="1527172753590" expanded="false" signature="6572:6595" ph="}" />
-            <marker date="1527172753590" expanded="false" signature="6645:6753" ph="(v) → {" />
-            <marker date="1527172753590" expanded="false" signature="7883:7906" ph="}" />
-            <marker date="1527172753590" expanded="true" signature="9162:10666" ph="{...}" />
-            <marker date="1527172753590" expanded="true" signature="9192:10659" ph="{...}" />
-            <marker date="1527172753590" expanded="true" signature="9295:10194" ph="{...}" />
-            <marker date="1527172753590" expanded="false" signature="9430:9441" ph="&lt;~&gt;" />
-            <marker date="1527172753590" expanded="true" signature="10243:10327" ph="{...}" />
-            <marker date="1527172753590" expanded="true" signature="10341:10371" ph="@{...}" />
-            <marker date="1527172753590" expanded="true" signature="10341:10393" ph="@{...}" />
-            <marker date="1527172753590" expanded="true" signature="10526:10649" ph="{...}" />
-            <marker date="1527172753590" expanded="true" signature="10712:10903" ph="{...}" />
+            <marker date="1530096867195" expanded="false" signature="6128:6239" ph="(view) → {" />
+            <marker date="1530096867195" expanded="false" signature="6314:6337" ph="}" />
+            <marker date="1530096867195" expanded="false" signature="6387:6498" ph="(view) → {" />
+            <marker date="1530096867195" expanded="false" signature="6572:6595" ph="}" />
+            <marker date="1530096867195" expanded="false" signature="6645:6753" ph="(v) → {" />
+            <marker date="1530096867195" expanded="false" signature="7883:7906" ph="}" />
+            <marker date="1530096867195" expanded="true" signature="9256:10760" ph="{...}" />
+            <marker date="1530096867195" expanded="true" signature="9286:10753" ph="{...}" />
+            <marker date="1530096867195" expanded="true" signature="9389:10288" ph="{...}" />
+            <marker date="1530096867195" expanded="false" signature="9524:9535" ph="&lt;~&gt;" />
+            <marker date="1530096867195" expanded="true" signature="10337:10421" ph="{...}" />
+            <marker date="1530096867195" expanded="true" signature="10435:10465" ph="@{...}" />
+            <marker date="1530096867195" expanded="true" signature="10435:10487" ph="@{...}" />
+            <marker date="1530096867195" expanded="true" signature="10620:10743" ph="{...}" />
+            <marker date="1530096867195" expanded="true" signature="10806:10997" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3522,8 +3559,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/SalesInvoiceRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
-          <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="29" />
-          <folding />
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -3531,7 +3567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3539,7 +3574,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3519">
           <caret line="275" column="73" lean-forward="false" selection-start-line="275" selection-start-column="73" selection-end-line="275" selection-end-column="73" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3372#3373#0" expanded="false" />
+            <element signature="e#3421#3422#0" expanded="false" />
+            <element signature="e#3475#3476#0" expanded="false" />
+            <element signature="e#3506#3507#0" expanded="false" />
+            <element signature="e#3549#3550#0" expanded="false" />
+            <element signature="e#3580#3581#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3552,24 +3595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/MyPosBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6018">
-          <caret line="366" column="51" lean-forward="false" selection-start-line="366" selection-start-column="51" selection-end-line="366" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="71" column="49" lean-forward="false" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30124">
-          <caret line="1872" column="56" lean-forward="false" selection-start-line="1872" selection-start-column="50" selection-end-line="1872" selection-end-column="56" />
+        <state relative-caret-position="6001">
+          <caret line="365" column="51" lean-forward="false" selection-start-line="365" selection-start-column="51" selection-end-line="365" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -3587,7 +3614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/CustomerDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="867">
           <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
@@ -3601,20 +3628,143 @@
         <state relative-caret-position="34">
           <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding>
-            <marker date="1525274191764" expanded="false" signature="1018:1036" ph="&quot;MyRewardzPOS&quot;" />
-            <marker date="1525274191764" expanded="false" signature="1270:1309" ph="&quot;11717000&quot;" />
-            <marker date="1525274191764" expanded="false" signature="1668:1686" ph="&quot;MyRewardzPOS&quot;" />
-            <marker date="1525274191764" expanded="false" signature="2117:2155" ph="&quot;ServiceOrderActivity&quot;" />
-            <marker date="1525274191764" expanded="false" signature="2362:2392" ph="&quot;Sign in&quot;" />
+            <marker date="1530096867164" expanded="false" signature="1177:1195" ph="&quot;MyRewardzPOS&quot;" />
+            <marker date="1530096867164" expanded="false" signature="1429:1468" ph="&quot;11717000&quot;" />
+            <marker date="1530096867164" expanded="false" signature="1827:1845" ph="&quot;MyRewardzPOS&quot;" />
+            <marker date="1530096867164" expanded="false" signature="2276:2314" ph="&quot;ServiceOrderActivity&quot;" />
+            <marker date="1530096867164" expanded="false" signature="2521:2551" ph="&quot;Sign in&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/database/SchemaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4182">
+          <caret line="268" column="31" lean-forward="false" selection-start-line="268" selection-start-column="31" selection-end-line="268" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding>
+            <element signature="method#buildInClause#0;class#DatabaseObject#0" expanded="false" />
+            <element signature="method#findAllRecords#0;class#DatabaseObject#0" expanded="false" />
+            <element signature="method#findById#0;class#DatabaseObject#0" expanded="false" />
+            <element signature="method#findById#1;class#DatabaseObject#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/meritatech/myrewardzpos/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="3962" column="28" lean-forward="false" selection-start-line="3962" selection-start-column="28" selection-end-line="3962" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="601" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4488">
+          <caret line="328" column="34" lean-forward="false" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="34" />
+          <folding>
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+            <marker date="1530096867189" expanded="true" signature="4436:4683" ph="{...}" />
+            <marker date="1530096867189" expanded="true" signature="4551:4661" ph="{...}" />
+            <marker date="1530096867189" expanded="true" signature="5451:5694" ph="{...}" />
+            <marker date="1530096867189" expanded="true" signature="5505:5683" ph="{...}" />
+            <marker date="1530096867189" expanded="true" signature="5993:6105" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="1392" column="64" lean-forward="false" selection-start-line="1392" selection-start-column="64" selection-end-line="1392" selection-end-column="64" />
+          <folding>
+            <element signature="e#7534#8604#0" expanded="true" />
+            <element signature="e#8603#8604#0" expanded="true" />
+            <element signature="e#8644#9164#0" expanded="true" />
+            <element signature="e#9163#9164#0" expanded="true" />
+            <element signature="e#10520#10962#0" expanded="true" />
+            <element signature="e#10961#10962#0" expanded="true" />
+            <element signature="e#17931#17942#0" expanded="true" />
+            <element signature="e#40414#40969#0" expanded="true" />
+            <element signature="e#40968#40969#0" expanded="true" />
+            <element signature="e#41026#41231#0" expanded="true" />
+            <element signature="e#41230#41231#0" expanded="true" />
+            <element signature="e#42816#43068#0" expanded="true" />
+            <element signature="e#43067#43068#0" expanded="true" />
+            <element signature="e#44048#44327#0" expanded="true" />
+            <element signature="e#44326#44327#0" expanded="true" />
+            <element signature="e#44389#44661#0" expanded="true" />
+            <element signature="e#44660#44661#0" expanded="true" />
+            <element signature="e#45380#45645#0" expanded="true" />
+            <element signature="e#45644#45645#0" expanded="true" />
+            <element signature="e#51868#51879#0" expanded="true" />
+            <element signature="e#51950#51965#0" expanded="true" />
+            <element signature="e#54437#54466#0" expanded="true" />
+            <element signature="e#66293#66304#0" expanded="true" />
+            <element signature="e#75903#76740#0" expanded="true" />
+            <element signature="e#76739#76740#0" expanded="true" />
+            <element signature="e#85739#86627#0" expanded="true" />
+            <element signature="e#86626#86627#0" expanded="true" />
+            <element signature="e#93281#93586#0" expanded="true" />
+            <element signature="e#93585#93586#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,6 +11,13 @@ import java.util.UUID;
 @PersistAnnotation
 public class LogRecord extends DatabaseObject {
 
+    @SerializedName("sent")
+    public int sent;
+
+    public int getsent() {
+        return sent;
+    }
+
     @SerializedName("ErrorMessage")
     public String ErrorMessage;
     public String getErrorMessage() {

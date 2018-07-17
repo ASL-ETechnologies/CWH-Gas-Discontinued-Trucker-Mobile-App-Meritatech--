@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/laymain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/fNameRlbl"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="First Name:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fNameR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lnameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/lNameRlbl"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Last Name:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lNameR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layphn1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/phone1Rlbl"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Phone1#:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phone1R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layphn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/phone1Rlb2"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Phone2#:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phone2R"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layemail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/emailRlbl"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Email:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/emailR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/receiptItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:shrinkColumns="3"
+                android:stretchColumns="0,4"></TableLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/laymaintx"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="18dp"
+                android:text="Total Tax"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/totaltaxtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:text="0"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/laymainW"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/txLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="18dp"
+                android:text="Totals (Tax Inc.)"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/totaltxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:text="Points"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/laymainP"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Points"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pntstxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Points"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/laymainPb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Points Before"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pntsbeforetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Points before"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/laymainPt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Total Points"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/totalpntstxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Total Points"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:paddingBottom="15dp">
+
+            <ImageView
+                android:id="@+id/buttonPrint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:onClick="addInventoryClick"
+                android:paddingRight="20dp"
+                android:src="@drawable/ic_print_black_24px" />
+
+            <ImageView
+                android:id="@+id/buttonmsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:onClick="addInventoryClick"
+                android:paddingRight="20dp"
+                android:src="@drawable/ic_message_black_24px" />
+
+            <ImageView
+                android:id="@+id/buttonwhatsapp"
+                android:layout_width="27dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:onClick="addInventoryClick"
+                android:src="@drawable/whatsapp_logo__2_"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="15dp">
+
+            <Button
+                android:id="@+id/buttonFinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#7DCEA0"
+                android:text="Finish"></Button>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

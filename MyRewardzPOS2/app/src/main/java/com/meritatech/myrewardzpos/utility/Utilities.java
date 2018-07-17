@@ -26,7 +26,17 @@ public class Utilities {
     {
         LogRecord lr = new LogRecord();
         lr.EventDate = new Date();
-        lr.ErrorMessage = ex.getMessage();
+
+        if(ex.getMessage().equals( "Unable to resolve host \"api.my-points-rewardz.com\": No address associated with hostname"))
+        {
+            lr.ErrorMessage = ex.getMessage() + "STACKTRACE MSG ***"+  ex.getStackTrace();
+        }
+        else
+        {
+            lr.ErrorMessage = ex.getMessage() + ex.getStackTrace();
+        }
+
+        lr.sent = 0;
         lr.save();
     }
 
