@@ -39,6 +39,8 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.meritatech.myrewardzpos.controller.GlobalVariables;
 import com.meritatech.myrewardzpos.controller.LoginResponse;
+import com.meritatech.myrewardzpos.data.LogRecord;
+import com.meritatech.myrewardzpos.data.MyPosBase;
 import com.meritatech.myrewardzpos.data.UserRecord;
 import com.meritatech.myrewardzpos.database.SugarContext;
 import com.meritatech.myrewardzpos.global.DeviceDetails;
@@ -385,10 +387,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
                 TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
-             //   @SuppressLint("MissingPermission") String IMEI = telephonyManager.getDeviceId();;
+                //   @SuppressLint("MissingPermission") String IMEI = telephonyManager.getDeviceId();;
 
                 DeviceDetails dd = new DeviceDetails();
-             //   dd.IMEI = IMEI;
+                //   dd.IMEI = IMEI;
                 dd.Manufacturer = Build.MANUFACTURER;
                 dd.Model = Build.MODEL;
                 dd.Product = Build.PRODUCT;
@@ -399,7 +401,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 Gson gson1 = new Gson();
                 String jsonObj = gson1.toJson(dd);
 
-                Call<LoginDataModel> call = client.login(mSMID, mPassword, null ,jsonObj);
+                Call<LoginDataModel> call = client.login(mSMID, mPassword, null, jsonObj);
 
                 call.enqueue(new Callback<LoginDataModel>() {
 
@@ -418,6 +420,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                     LoginResponse loginResponse = body.dataObj.Data.get(0);
 
                                     IsLoggedIn = true;
+                                    GlobalVariables.MaxErrorLogsRecords = loginResponse.maxErrorLogRecords;
                                     GlobalVariables.taxIncluded = loginResponse.taxIncluded;
                                     GlobalVariables.highCustomerLimit = loginResponse.highCustomerLimit;
                                     GlobalVariables.token = loginResponse.NewToken;
@@ -429,6 +432,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                     GlobalVariables.ParentId = loginResponse.ParStoreId;
                                     GlobalVariables.storeId = loginResponse.StoreId;
                                     GlobalVariables.realmId = loginResponse.RealmId;
+                                    GlobalVariables.invSoPurgeAgeDays = loginResponse.InvSoPurgeAgeDays;
                                     GlobalVariables.pointsPerDollar = Integer.valueOf(loginResponse.PointsPerDollar);
                                     GlobalVariables.soAgingLimitHours = loginResponse.SoAgingLimitHours;
                                     GlobalVariables.killApplication = loginResponse.killApplication;

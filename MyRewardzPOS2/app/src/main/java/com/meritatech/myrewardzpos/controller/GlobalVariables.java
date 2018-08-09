@@ -46,6 +46,7 @@ public class GlobalVariables {
     public static String invSoPurgeAgeDays;
     public static String salesTaxAbbreviation;
     public static String allowPriceChange;
+    public static  String  MaxErrorLogsRecords = "0";
     public static String roundSalesUpFactor;
     public static String enableGPS;
     public static String directPost;
@@ -58,6 +59,7 @@ public class GlobalVariables {
     public  static boolean IsCustomerLocation = false;
     public static CustomerType customerType = null;
     public  static int  CsRecCounter = 0;
+    public static  boolean IsCustomerListRecSet = false;
     static final java.text.SimpleDateFormat sdf =
             new java.text.SimpleDateFormat("yyyyMMddHHmmss");
     public static String Dburl = "jdbc:sqlite:D:/sqlite/db/TestApiDb.db";
@@ -76,6 +78,8 @@ public class GlobalVariables {
 
         return activeNetwork != null && activeNetwork.isConnectedOrConnecting();
     }
+
+
 
 
 

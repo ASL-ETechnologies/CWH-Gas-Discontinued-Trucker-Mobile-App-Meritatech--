@@ -69,6 +69,8 @@ public class UploadBackGroundService extends IntentService {
     @Override
     public void onCreate() {
         super.onCreate();
+        /*set expected contacts records to localdb*/
+
 
     }
 
@@ -100,8 +102,25 @@ public class UploadBackGroundService extends IntentService {
 
                 customerRecordListAPI.SaveUserDetails();
                 userRecord = UserRecord.findAllRecords(UserRecord.class).get(0);
-
                 IsRunning = true;
+                customerRecordListAPI.GetExpectedRecNo();
+
+
+                ArrayList<CustomerDataInfoRecord> cdi = CustomerDataInfoRecord.findAllRecords(CustomerDataInfoRecord.class);
+                long totalcustomersinLocaldb = CustomerRecord.count(CustomerRecord.class);
+                if (cdi != null && cdi.size() > 0) {
+                    if (totalcustomersinLocaldb >= cdi.get(0).expectedtotalRecords) {
+                        if (GlobalVariables.custRefreshPeriodMins != null && Integer.parseInt(GlobalVariables.custRefreshPeriodMins) > 0) {
+                            Date now = new Date();
+                            if (nextPollCustomers == null || (now.getTime() > (nextPollCustomers.getTime() + (MS_TO_MINS * 60)))) {
+                                nextPollCustomers = now;
+                                customerRecordListAPI.LoadContactsPeriodically();
+                            }
+                        }
+                    } else {
+                        pollCustomers();
+                    }
+                }
                 backgroundThreadFunc();
 
             }
@@ -145,9 +164,7 @@ public class UploadBackGroundService extends IntentService {
 
                 long cusRec = CustomerRecord.count(CustomerRecord.class);
                 ArrayList<CustomerDataInfoRecord> cdi = CustomerDataInfoRecord.findAllRecords(CustomerDataInfoRecord.class);
-
                 if (cusRec == 0 || cdi.get(0).expectedtotalRecords > cusRec) {
-
                     long customers = CustomerRecord.count(CustomerRecord.class);
 
                     CustomerRecordListAPI customerRecordListAPI = new CustomerRecordListAPI(appContext);
@@ -225,19 +242,20 @@ public class UploadBackGroundService extends IntentService {
     }
 
     final MyPosBase myPosBase = new MyPosBase();
-    public  void pollLogs(){
+
+    public void pollLogs() {
 
         Date now = new Date();
-            nextPollSalesTransactions = now;
-            ArrayList<LogRecord> alllogs = myPosBase.GetUnSentLogs("0");
-            if (alllogs != null && alllogs.size() > 0 && GlobalVariables.isConnected(getBaseContext())) {
-                LogsDataObj ldo = new LogsDataObj();
-                ldo.logRecord = alllogs;
-                ldo.recCount = alllogs.size();
+        nextPollSalesTransactions = now;
+        ArrayList<LogRecord> alllogs = myPosBase.GetUnSentLogs("0");
+        if (alllogs != null && alllogs.size() > 0 && GlobalVariables.isConnected(getBaseContext())) {
+            LogsDataObj ldo = new LogsDataObj();
+            ldo.logRecord = alllogs;
+            ldo.recCount = alllogs.size();
 
-                SalesTransactionsAPI salesTransactionsAPI = new SalesTransactionsAPI();
-                salesTransactionsAPI.PostLogs(ldo);
-            }
+            SalesTransactionsAPI salesTransactionsAPI = new SalesTransactionsAPI();
+            salesTransactionsAPI.PostLogs(ldo);
+        }
 
     }
 
@@ -246,9 +264,17 @@ public class UploadBackGroundService extends IntentService {
         try {
 
 
-            Date now = new Date();
-            if (nextPollSalesTransactions == null || (now.getTime() > (nextPollSalesTransactions.getTime() + (MS_TO_MINS * 1)))) {
-                nextPollSalesTransactions = now;
+            long nxt = nextPollSalesTransactions.getTime();
+            Calendar date = Calendar.getInstance();
+            long timenow = date.getTimeInMillis();
+
+            if (nextPollSalesTransactions == null || (timenow > nxt)) {
+
+                Calendar datenw = Calendar.getInstance();
+                long t = datenw.getTimeInMillis();
+                Date afterAddingMins = new Date(t + (1 * MS_TO_MINS));
+
+                nextPollSalesTransactions = afterAddingMins;
                 ArrayList<SalesInvoiceRecord> allsalestransactions = myPosBase.GetUnSentTransactions("0");
                 if (allsalestransactions != null && allsalestransactions.size() > 0 && GlobalVariables.isConnected(getBaseContext())) {
                     InventoryListAPI inventoryListAPI = new InventoryListAPI();
@@ -329,31 +355,17 @@ public class UploadBackGroundService extends IntentService {
 
             try {
                 Thread.sleep(1000);
+                if(!GlobalVariables.isConnected(getApplicationContext()))
+                {
+                    backgroundThreadFunc();
+                }
                 pollInventory();
                 pollSalesOrders();
                 pollSalesTransactions();
                 pollLogs();
-                CustomerRecordListAPI customerRecordListAPI = new CustomerRecordListAPI(appContext);
-                /*set expected contacts records to localdb*/
-                customerRecordListAPI.GetExpectedRecNo();
                 Thread.sleep(10000);
                 deleteOldSalesHistory();
 
-                ArrayList<CustomerDataInfoRecord> cdi = CustomerDataInfoRecord.findAllRecords(CustomerDataInfoRecord.class);
-                long totalcustomersinLocaldb = CustomerRecord.count(CustomerRecord.class);
-                if (cdi != null && cdi.size() > 0) {
-                    if (totalcustomersinLocaldb >= cdi.get(0).expectedtotalRecords) {
-                        if (GlobalVariables.custRefreshPeriodMins != null && Integer.parseInt(GlobalVariables.custRefreshPeriodMins) > 0) {
-                            Date now = new Date();
-                            if (nextPollCustomers == null || (now.getTime() > (nextPollCustomers.getTime() + (MS_TO_MINS * 60)))) {
-                                nextPollCustomers = now;
-                                customerRecordListAPI.LoadContactsPeriodically();
-                            }
-                        }
-                    } else {
-                        pollCustomers();
-                    }
-                }
 
             } catch (InterruptedException consumed) {
                 IsRunning = false;

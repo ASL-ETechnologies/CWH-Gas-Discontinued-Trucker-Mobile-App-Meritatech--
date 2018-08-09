@@ -32,9 +32,6 @@ public class BackgroundActivity {
         try {
             final MyPosBase myPosBase = new MyPosBase();
 
-          /*  AsyncTask.execute(new Runnable() {
-                @Override
-                public void run() {*/
                     ArrayList<SalesInvoiceRecord> allsalestransactions = myPosBase.GetUnSentTransactions("0");
                     if (allsalestransactions != null && allsalestransactions.size() > 0) {
                         InventoryListAPI inventoryListAPI = new InventoryListAPI();
@@ -96,8 +93,7 @@ public class BackgroundActivity {
 
 
                     }
-               /* }
-            });*/
+
 
 
         } catch (Exception ex) {
@@ -111,7 +107,7 @@ public class BackgroundActivity {
             InventoryRecord.deleteAll(InventoryRecord.class);
         }
         InventoryListAPI inventoryListAPI = new InventoryListAPI();
-        inventoryListAPI.InventoryListAPICall();
+        inventoryListAPI.InventoryListAPICallAsync();
     }
 
     public void syncSalesOrder() {

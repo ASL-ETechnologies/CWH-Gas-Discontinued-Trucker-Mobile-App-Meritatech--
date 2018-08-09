@@ -50,7 +50,7 @@ public class CustomerRecordListAPI extends APIBase<CustomerDataObj> {
                 pollCustomerRecords();
             } else if (totalcustomersinLocaldb >= cdi.get(0).expectedtotalRecords) {
                 if (GlobalVariables.custRefreshPeriodMins != null && Integer.parseInt(GlobalVariables.custRefreshPeriodMins) > 0) {
-                    LoadContactsPeriodically();
+                   LoadContactsPeriodically();
                 }
             }
         } else {
@@ -123,15 +123,13 @@ public class CustomerRecordListAPI extends APIBase<CustomerDataObj> {
             }
             totalLocRec = totalRec / limit;
         }
-        loopInt = totalLocRec + 2;
+        loopInt = totalLocRec + 1;
         int i = 0;
-
 
         if (totalcustomersinLocaldb > 0 && cdi.get(0).expectedtotalRecords > totalcustomersinLocaldb) {
             totalLocRec = (cdi.get(0).expectedtotalRecords - (int) totalcustomersinLocaldb) / limit;
-            loopInt = totalLocRec + 2;
+            loopInt = totalLocRec + 1;
             while (loopInt > 0) {
-
                 final int start = (int) totalcustomersinLocaldb + (i * limit) + 1;
                 SaveBatchToDisk(limit, start, "");
                 i++;
@@ -141,12 +139,12 @@ public class CustomerRecordListAPI extends APIBase<CustomerDataObj> {
         } else {
             while (loopInt > 0) {
                 Log.e("i value", i + "");
-
                 int start = (i * limit);
                 SaveBatchToDisk(limit, start, "");
                 loopInt = loopInt - 1;
 
                 if (loopInt == 0) {
+                    //check if any more records added after last loop
                     start = ((i + 1) * limit);
                     SaveBatchToDisk(limit, start, "");
                 }

@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import com.meritatech.myrewardzpos.data.LogRecord;
+import com.meritatech.myrewardzpos.data.MyPosBase;
 import com.meritatech.myrewardzpos.database.SchemaGenerator;
 
 import java.io.File;
@@ -22,28 +23,28 @@ import dalvik.system.DexFile;
 
 public class Utilities {
 
-    public  static  void LogException(Exception ex)
-    {
+    public static void LogException(Exception ex) {
+
+        final MyPosBase myPosBase = new MyPosBase();
+        myPosBase.DeleteOldLogs();
         LogRecord lr = new LogRecord();
         lr.EventDate = new Date();
-
-        if(ex.getMessage().equals( "Unable to resolve host \"api.my-points-rewardz.com\": No address associated with hostname"))
-        {
-            lr.ErrorMessage = ex.getMessage() + "STACKTRACE MSG ***"+  ex.getStackTrace();
+        lr.ErrorMessage = ex.getMessage();
+        if (ex.getStackTrace() != null) {
+            lr.StackTrace = String.valueOf(ex.getStackTrace());
         }
-        else
-        {
-            lr.ErrorMessage = ex.getMessage() + ex.getStackTrace();
-        }
-
         lr.sent = 0;
         lr.save();
     }
 
-    public static void LogError(String error)
-    {
-
+    public static void LogError(String error) {
+        LogRecord lr = new LogRecord();
+        lr.EventDate = new Date();
+        lr.ErrorMessage = error;
+        lr.sent = 0;
+        lr.save();
     }
+
     static SQLiteDatabase sqLiteDatabase;
 
     static boolean mIsInitialized = false;
@@ -118,8 +119,6 @@ public class Utilities {
         }
         return allPackageClassNames;
     }
-
-
 
 
 }

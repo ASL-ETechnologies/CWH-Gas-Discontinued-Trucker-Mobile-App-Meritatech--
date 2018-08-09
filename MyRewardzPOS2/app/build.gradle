@@ -7,8 +7,8 @@ android {
         minSdkVersion 19
         targetSdkVersion 26
 
-        versionCode 118
-        versionName "11.8.0"
+        versionCode 126
+        versionName "12.6.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="myrewardzpos.com"
-    android:versionCode="115"
-    android:versionName="11.5.0" >
+    android:versionCode="118"
+    android:versionName="11.8.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <!-- To auto-complete the email text field in loginInterfaceogin form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />

@@ -50,6 +50,7 @@ import com.meritatech.myrewardzpos.utility.Utilities;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Timer;
@@ -185,6 +186,22 @@ public class MainActivity extends AppCompatActivity
         }
 
 
+
+        try {
+            NavigationView navigationView1 = (NavigationView) findViewById(R.id.nav_view);
+            Menu menu = navigationView1.getMenu();
+            MenuItem nav_camara = menu.findItem(R.id.nav_info);
+
+            PackageInfo pinfo = null;
+
+            pinfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+
+            String versionName = pinfo.versionName;
+            nav_camara.setTitle(versionName);
+        } catch (PackageManager.NameNotFoundException e) {
+            Utilities.LogException(e);
+        }
+
     }
 
     private void LogSession() {
@@ -301,6 +318,7 @@ public class MainActivity extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

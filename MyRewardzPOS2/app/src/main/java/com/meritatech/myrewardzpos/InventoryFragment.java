@@ -132,7 +132,7 @@ public class InventoryFragment extends Fragment
             public void onClick(View view) {
                 progress.show();
                 InventoryListAPI inventoryListAPI = new InventoryListAPI();
-                inventoryListAPI.InventoryListAPICall();
+                inventoryListAPI.InventoryListAPICallAsync();
                 getFragmentManager().beginTransaction().detach(InventoryFragment.this).attach(InventoryFragment.this).commit();
                 try {
                     Thread.sleep(2000);

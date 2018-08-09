@@ -73,129 +73,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DatabaseObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
-              <caret line="223" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-              <folding>
-                <element signature="method#buildInClause#0;class#DatabaseObject#0" expanded="false" />
-                <element signature="method#findAllRecords#0;class#DatabaseObject#0" expanded="false" />
-                <element signature="method#findById#0;class#DatabaseObject#0" expanded="false" />
-                <element signature="method#findById#1;class#DatabaseObject#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DataModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4488">
-              <caret line="328" column="34" lean-forward="false" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="34" />
+            <state relative-caret-position="338">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="100" selection-start-column="6" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-                <marker date="1530096867189" expanded="true" signature="4436:4683" ph="{...}" />
-                <marker date="1530096867189" expanded="true" signature="4551:4661" ph="{...}" />
-                <marker date="1530096867189" expanded="true" signature="5451:5694" ph="{...}" />
-                <marker date="1530096867189" expanded="true" signature="5505:5683" ph="{...}" />
-                <marker date="1530096867189" expanded="true" signature="5993:6105" ph="//..." />
+                <marker date="1531816722715" expanded="true" signature="5680:5902" ph="{...}" />
+                <marker date="1531816722715" expanded="true" signature="5680:7415" ph="{...}" />
+                <marker date="1531816722715" expanded="true" signature="5713:5891" ph="{...}" />
+                <marker date="1531816722715" expanded="true" signature="6201:6313" ph="//..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <file leaf-file-name="ApiClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/AutoSyncServices/ApiClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <file leaf-file-name="GlobalVariables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/GlobalVariables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="UploadBackGroundService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/UploadBackGroundService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="307" column="52" lean-forward="false" selection-start-line="307" selection-start-column="52" selection-end-line="307" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1531816723061" expanded="true" signature="10712:10798" ph="{...}" />
+                <marker date="1531816723061" expanded="true" signature="15908:15914" ph="{...}" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvoiceCreateFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
+      <file leaf-file-name="SalesTransactionsAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/SalesTransactionsAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/utility/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="1392" column="64" lean-forward="false" selection-start-line="1392" selection-start-column="64" selection-end-line="1392" selection-end-column="64" />
-              <folding>
-                <element signature="e#7534#8604#0" expanded="true" />
-                <element signature="e#8603#8604#0" expanded="true" />
-                <element signature="e#8644#9164#0" expanded="true" />
-                <element signature="e#9163#9164#0" expanded="true" />
-                <element signature="e#10520#10962#0" expanded="true" />
-                <element signature="e#10961#10962#0" expanded="true" />
-                <element signature="e#17931#17942#0" expanded="true" />
-                <element signature="e#40414#40969#0" expanded="true" />
-                <element signature="e#40968#40969#0" expanded="true" />
-                <element signature="e#41026#41231#0" expanded="true" />
-                <element signature="e#41230#41231#0" expanded="true" />
-                <element signature="e#42816#43068#0" expanded="true" />
-                <element signature="e#43067#43068#0" expanded="true" />
-                <element signature="e#44048#44327#0" expanded="true" />
-                <element signature="e#44326#44327#0" expanded="true" />
-                <element signature="e#44389#44661#0" expanded="true" />
-                <element signature="e#44660#44661#0" expanded="true" />
-                <element signature="e#45380#45645#0" expanded="true" />
-                <element signature="e#45644#45645#0" expanded="true" />
-                <element signature="e#51868#51879#0" expanded="true" />
-                <element signature="e#51950#51965#0" expanded="true" />
-                <element signature="e#54437#54466#0" expanded="true" />
-                <element signature="e#66293#66304#0" expanded="true" />
-                <element signature="e#75903#76740#0" expanded="true" />
-                <element signature="e#76739#76740#0" expanded="true" />
-                <element signature="e#85739#86627#0" expanded="true" />
-                <element signature="e#86626#86627#0" expanded="true" />
-                <element signature="e#93281#93586#0" expanded="true" />
-                <element signature="e#93585#93586#0" expanded="true" />
-              </folding>
+              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_invoice_create.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml">
+      <file leaf-file-name="LogRecord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/LogRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="124" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="601" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_customer_full_details.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_full_details.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -204,29 +166,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchemaGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/database/SchemaGenerator.java">
+      <file leaf-file-name="InventoryListAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/InventoryListAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4182">
-              <caret line="268" column="31" lean-forward="false" selection-start-line="268" selection-start-column="31" selection-end-line="268" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdapterSalesInvoice.java" pinned="true" current-in-tab="false">
+      <file leaf-file-name="AdapterSalesInvoice.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesInvoice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3519">
-              <caret line="275" column="73" lean-forward="false" selection-start-line="275" selection-start-column="73" selection-end-line="275" selection-end-column="73" />
+            <state relative-caret-position="476">
+              <caret line="283" column="35" lean-forward="false" selection-start-line="283" selection-start-column="35" selection-end-line="283" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3372#3373#0" expanded="false" />
-                <element signature="e#3421#3422#0" expanded="false" />
-                <element signature="e#3475#3476#0" expanded="false" />
-                <element signature="e#3506#3507#0" expanded="false" />
-                <element signature="e#3549#3550#0" expanded="false" />
-                <element signature="e#3580#3581#0" expanded="false" />
+                <element signature="e#17638#19697#0" expanded="true" />
+                <element signature="e#19696#19697#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -246,10 +203,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this devices's locat</find>
-      <find>this devices's locati</find>
-      <find>this devices's locatio</find>
-      <find>this devices's location</find>
       <find>location?</find>
       <find>location</find>
       <find>A</find>
@@ -276,6 +229,10 @@
       <find>MyPosBase.GetCustomerPointsHistory</find>
       <find>databaseOb</find>
       <find>onClick</find>
+      <find>U</find>
+      <find>UUID</find>
+      <find>appContext</find>
+      <find>UploadBackGroundService</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2049,7 +2006,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/EndlessScrollListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/global/InvoiceVariableData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/CustomerRecord.java" />
@@ -2095,11 +2051,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesInvoice.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/CustomerDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/MyPosBase.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/AutoSyncServices/ApiClient.java" />
       </list>
     </option>
   </component>
@@ -2125,87 +2082,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyRewardzPOS2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyRewardzPOS2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyRewardzPOS2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyRewardzPOS2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myrewardzpos" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyRewardzPOS2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myrewardzpos" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2382,7 +2258,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2426,6 +2336,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myrewardzpos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2446,6 +2390,87 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myrewardzpos" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRewardzPOS2" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myrewardzpos" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2594,7 +2619,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531457892513" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533124890985" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2641,7 +2667,8 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531457892513" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533124890985" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2673,6 +2700,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2802,7 +2850,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531457892515" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533124890986" />
       </method>
     </configuration>
     <list size="2">
@@ -2870,6 +2919,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152762" sideWeight="0.119936034" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -2878,7 +2928,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06609808" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -2891,8 +2941,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32345015" sideWeight="0.4877892" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3226152" sideWeight="0.4877892" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2990,7 +3039,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java</url>
-          <line>382</line>
+          <line>387</line>
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -3008,7 +3057,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/LoginActivity.java</url>
-          <line>452</line>
+          <line>478</line>
           <properties />
           <option name="timeStamp" value="416" />
         </line-breakpoint>
@@ -3026,7 +3075,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/CustomerRecordAPI.java</url>
-          <line>35</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="433" />
         </line-breakpoint>
@@ -3038,25 +3087,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/InventoryRecordAPI.java</url>
-          <line>38</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="435" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/RefreshTokenApi.java</url>
-          <line>42</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="436" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/RefreshTokenApi.java</url>
-          <line>39</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="437" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/InventoryRecordAPI.java</url>
-          <line>36</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="438" />
         </line-breakpoint>
@@ -3110,19 +3159,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/UploadBackGroundService.java</url>
-          <line>143</line>
+          <line>145</line>
           <properties />
           <option name="timeStamp" value="778" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java</url>
-          <line>247</line>
+          <line>252</line>
           <properties />
           <option name="timeStamp" value="781" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesInvoice.java</url>
-          <line>256</line>
+          <line>231</line>
           <properties />
           <option name="timeStamp" value="782" />
         </line-breakpoint>
@@ -3197,108 +3246,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/android/support/v4/app/FragmentTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="92" column="22" lean-forward="true" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/customer_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/CustomerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-26/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_service_order.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-26/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="5727" column="40" lean-forward="false" selection-start-line="5727" selection-start-column="40" selection-end-line="5727" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/InventoryListAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/inventorylistlayout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/salesorderlistlayout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/inventorymainlayout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -3317,21 +3264,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/SalesOrderFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="144" column="37" lean-forward="false" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InventoryFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="119" column="42" lean-forward="false" selection-start-line="119" selection-start-column="42" selection-end-line="119" selection-end-column="42" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterInventory.java">
@@ -3380,13 +3312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/GlobalVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/CustomerRecordListAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2839">
@@ -3399,78 +3324,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="178" column="91" lean-forward="false" selection-start-line="178" selection-start-column="91" selection-end-line="178" selection-end-column="91" />
-          <folding>
-            <marker date="1530096867170" expanded="true" signature="6109:6342" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="6176:6332" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="6435:20987" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="6489:20977" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="8220:8922" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="8298:8900" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="10050:20941" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="10205:20764" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="11747:18809" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="11996:18771" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="18919:20561" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="19093:20523" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="20891:20919" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="21032:21115" ph="{...}" />
-            <marker date="1530096867170" expanded="false" signature="21063:21082" ph=" { " />
-            <marker date="1530096867170" expanded="false" signature="21091:21105" ph=" }" />
-            <marker date="1530096867170" expanded="true" signature="21346:25820" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="21511:25810" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="25902:27069" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="26020:27059" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="28321:28427" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="28321:28417" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="28321:28407" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="28473:30599" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="29685:30579" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="29820:30292" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="30401:30565" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="30716:30816" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="30875:31201" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="31244:31303" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="31330:32504" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="32511:32559" ph="@{...}" />
-            <marker date="1530096867170" expanded="true" signature="32608:34141" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="34185:35559" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="34238:35550" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="34270:35540" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="34594:35117" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="34744:35091" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="35206:35434" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="35328:35408" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="35565:36027" ph="/**...*/" />
-            <marker date="1530096867170" expanded="true" signature="36079:36178" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="36222:38424" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="38393:38424" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="38481:38702" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="38746:38810" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="38852:38912" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="38981:39081" ph="{...}" />
-            <marker date="1530096867170" expanded="true" signature="39127:39195" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5712">
           <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1530096867187" expanded="true" signature="17659:19246" ph="{...}" />
-            <marker date="1530096867187" expanded="true" signature="17659:18700" ph="{...}" />
-            <marker date="1530096867187" expanded="true" signature="17659:18700" ph="{...}" />
-            <marker date="1530096867187" expanded="true" signature="18814:19228" ph="{...}" />
-            <marker date="1530096867187" expanded="true" signature="19406:20373" ph="{...}" />
-            <marker date="1530096867187" expanded="true" signature="19787:19881" ph="//..." />
-            <marker date="1530096867187" expanded="true" signature="20453:20898" ph="{...}" />
-            <marker date="1530096867187" expanded="true" signature="20955:21029" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="18759:20346" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="18759:19800" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="18759:19800" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="19914:20328" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="20506:21473" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="20887:20981" ph="//..." />
+            <marker date="1531816722684" expanded="true" signature="21553:21998" ph="{...}" />
+            <marker date="1531816722684" expanded="true" signature="22055:22129" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3483,18 +3350,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/UploadBackGroundService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1530096867193" expanded="true" signature="10712:10798" ph="{...}" />
-            <marker date="1530096867193" expanded="true" signature="15190:15196" ph="{...}" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/database/SugarRecord.java">
@@ -3570,22 +3425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesInvoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3519">
-          <caret line="275" column="73" lean-forward="false" selection-start-line="275" selection-start-column="73" selection-end-line="275" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3372#3373#0" expanded="false" />
-            <element signature="e#3421#3422#0" expanded="false" />
-            <element signature="e#3475#3476#0" expanded="false" />
-            <element signature="e#3506#3507#0" expanded="false" />
-            <element signature="e#3549#3550#0" expanded="false" />
-            <element signature="e#3580#3581#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-26/android/os/Looper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -3605,7 +3444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3627,13 +3465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding>
-            <marker date="1530096867164" expanded="false" signature="1177:1195" ph="&quot;MyRewardzPOS&quot;" />
-            <marker date="1530096867164" expanded="false" signature="1429:1468" ph="&quot;11717000&quot;" />
-            <marker date="1530096867164" expanded="false" signature="1827:1845" ph="&quot;MyRewardzPOS&quot;" />
-            <marker date="1530096867164" expanded="false" signature="2276:2314" ph="&quot;ServiceOrderActivity&quot;" />
-            <marker date="1530096867164" expanded="false" signature="2521:2551" ph="&quot;Sign in&quot;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3649,28 +3481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding>
-            <element signature="method#buildInClause#0;class#DatabaseObject#0" expanded="false" />
-            <element signature="method#findAllRecords#0;class#DatabaseObject#0" expanded="false" />
-            <element signature="method#findById#0;class#DatabaseObject#0" expanded="false" />
-            <element signature="method#findById#1;class#DatabaseObject#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3678,7 +3488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="3962" column="28" lean-forward="false" selection-start-line="3962" selection-start-column="28" selection-end-line="3962" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3686,7 +3495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3697,7 +3505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3707,7 +3514,237 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_invoice_create.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
-          <caret line="124" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="601" selection-end-column="13" />
+          <caret line="124" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="602" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22287">
+          <caret line="1427" column="30" lean-forward="false" selection-start-line="1427" selection-start-column="30" selection-end-line="1427" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#7542#8612#0" expanded="false" />
+            <element signature="e#8611#8612#0" expanded="false" />
+            <element signature="e#8652#9172#0" expanded="false" />
+            <element signature="e#9171#9172#0" expanded="false" />
+            <element signature="e#10528#10970#0" expanded="false" />
+            <element signature="e#10969#10970#0" expanded="false" />
+            <element signature="e#14183#14184#0" expanded="false" />
+            <element signature="e#14242#14243#0" expanded="false" />
+            <element signature="e#14580#14581#0" expanded="false" />
+            <element signature="e#14641#14642#0" expanded="false" />
+            <element signature="e#14979#14980#0" expanded="false" />
+            <element signature="e#15040#15041#0" expanded="false" />
+            <element signature="e#15791#15792#0" expanded="false" />
+            <element signature="e#15865#15866#0" expanded="false" />
+            <element signature="e#17939#17950#0" expanded="false" />
+            <element signature="e#40428#40983#0" expanded="false" />
+            <element signature="e#40982#40983#0" expanded="false" />
+            <element signature="e#41040#41245#0" expanded="false" />
+            <element signature="e#41244#41245#0" expanded="false" />
+            <element signature="e#42878#43130#0" expanded="false" />
+            <element signature="e#43129#43130#0" expanded="false" />
+            <element signature="e#44161#44440#0" expanded="false" />
+            <element signature="e#44439#44440#0" expanded="false" />
+            <element signature="e#44502#44833#0" expanded="false" />
+            <element signature="e#44832#44833#0" expanded="false" />
+            <element signature="e#45603#45868#0" expanded="false" />
+            <element signature="e#45867#45868#0" expanded="false" />
+            <element signature="e#52091#52102#0" expanded="false" />
+            <element signature="e#52173#52188#0" expanded="false" />
+            <element signature="e#54660#54689#0" expanded="false" />
+            <element signature="e#66516#66527#0" expanded="false" />
+            <element signature="e#76126#76963#0" expanded="false" />
+            <element signature="e#76962#76963#0" expanded="false" />
+            <element signature="e#85962#86850#0" expanded="false" />
+            <element signature="e#86849#86850#0" expanded="false" />
+            <element signature="e#93504#93809#0" expanded="false" />
+            <element signature="e#93808#93809#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/SalesOrderFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="258" column="57" lean-forward="false" selection-start-line="258" selection-start-column="57" selection-end-line="258" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/ApiUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8449">
+          <caret line="560" column="86" lean-forward="false" selection-start-line="560" selection-start-column="86" selection-end-line="560" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/model/DatabaseObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="method#buildInClause#0;class#DatabaseObject#0" expanded="false" />
+            <element signature="method#findAllRecords#0;class#DatabaseObject#0" expanded="false" />
+            <element signature="method#findById#0;class#DatabaseObject#0" expanded="false" />
+            <element signature="method#findById#1;class#DatabaseObject#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/CustomerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3502">
+          <caret line="237" column="20" lean-forward="false" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/database/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="171" column="39" lean-forward="false" selection-start-line="171" selection-start-column="39" selection-end-line="171" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/interfaces/PosServicesInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InventoryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/AutoSyncServices/ApiClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/GlobalVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="100" selection-start-column="6" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
+            <marker date="1531816722715" expanded="true" signature="5680:5902" ph="{...}" />
+            <marker date="1531816722715" expanded="true" signature="5680:7415" ph="{...}" />
+            <marker date="1531816722715" expanded="true" signature="5713:5891" ph="{...}" />
+            <marker date="1531816722715" expanded="true" signature="6201:6313" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/InventoryRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/dataObj/InventoryDataObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/InventoryListAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/UploadBackGroundService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="307" column="52" lean-forward="false" selection-start-line="307" selection-start-column="52" selection-end-line="307" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1531816723061" expanded="true" signature="10712:10798" ph="{...}" />
+            <marker date="1531816723061" expanded="true" signature="15908:15914" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/SalesTransactionsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/utility/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/data/LogRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_customer_full_details.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -3715,55 +3752,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/controller/AdapterSalesInvoice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4488">
-          <caret line="328" column="34" lean-forward="false" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="34" />
+        <state relative-caret-position="476">
+          <caret line="283" column="35" lean-forward="false" selection-start-line="283" selection-start-column="35" selection-end-line="283" selection-end-column="35" />
           <folding>
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="false" />
-            <marker date="1530096867189" expanded="true" signature="4436:4683" ph="{...}" />
-            <marker date="1530096867189" expanded="true" signature="4551:4661" ph="{...}" />
-            <marker date="1530096867189" expanded="true" signature="5451:5694" ph="{...}" />
-            <marker date="1530096867189" expanded="true" signature="5505:5683" ph="{...}" />
-            <marker date="1530096867189" expanded="true" signature="5993:6105" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/meritatech/myrewardzpos/InvoiceCreateFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="1392" column="64" lean-forward="false" selection-start-line="1392" selection-start-column="64" selection-end-line="1392" selection-end-column="64" />
-          <folding>
-            <element signature="e#7534#8604#0" expanded="true" />
-            <element signature="e#8603#8604#0" expanded="true" />
-            <element signature="e#8644#9164#0" expanded="true" />
-            <element signature="e#9163#9164#0" expanded="true" />
-            <element signature="e#10520#10962#0" expanded="true" />
-            <element signature="e#10961#10962#0" expanded="true" />
-            <element signature="e#17931#17942#0" expanded="true" />
-            <element signature="e#40414#40969#0" expanded="true" />
-            <element signature="e#40968#40969#0" expanded="true" />
-            <element signature="e#41026#41231#0" expanded="true" />
-            <element signature="e#41230#41231#0" expanded="true" />
-            <element signature="e#42816#43068#0" expanded="true" />
-            <element signature="e#43067#43068#0" expanded="true" />
-            <element signature="e#44048#44327#0" expanded="true" />
-            <element signature="e#44326#44327#0" expanded="true" />
-            <element signature="e#44389#44661#0" expanded="true" />
-            <element signature="e#44660#44661#0" expanded="true" />
-            <element signature="e#45380#45645#0" expanded="true" />
-            <element signature="e#45644#45645#0" expanded="true" />
-            <element signature="e#51868#51879#0" expanded="true" />
-            <element signature="e#51950#51965#0" expanded="true" />
-            <element signature="e#54437#54466#0" expanded="true" />
-            <element signature="e#66293#66304#0" expanded="true" />
-            <element signature="e#75903#76740#0" expanded="true" />
-            <element signature="e#76739#76740#0" expanded="true" />
-            <element signature="e#85739#86627#0" expanded="true" />
-            <element signature="e#86626#86627#0" expanded="true" />
-            <element signature="e#93281#93586#0" expanded="true" />
-            <element signature="e#93585#93586#0" expanded="true" />
+            <element signature="e#17638#19697#0" expanded="true" />
+            <element signature="e#19696#19697#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -29,7 +29,7 @@
         <!-- The API key for Google Maps-based APIs. -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCOmAxrwmmmQT2UbRRTGj6Mxb445luDnZ0" />
+            android:value="AIzaSyAMoxSZ3e_4MvYfRqBGIAh8bgyvXuVJ3Y0"/>
 
         <activity
             android:name=".LoginActivity"  android:configChanges="orientation|screenSize|keyboardHidden"

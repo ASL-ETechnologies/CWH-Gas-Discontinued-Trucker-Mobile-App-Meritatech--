@@ -47,7 +47,7 @@
             <item
                 android:id="@+id/nav_info"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Version 11.8.0" />
+                android:title="Version 13.0.0" />
 
         </menu>
     </item>

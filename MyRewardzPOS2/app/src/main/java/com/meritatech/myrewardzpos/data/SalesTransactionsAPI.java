@@ -19,8 +19,7 @@ public class SalesTransactionsAPI extends APIBase<InvoiceDataObj> {
 
     public void SalesTransactionWrite(final InvoiceDataObj dataObj) {
         try {
-            Gson gson1 = new Gson();
-            String jsonObj = gson1.toJson(dataObj);
+
             PosServicesInterface inventoryInterface =
                     ApiClient.getClient().create(PosServicesInterface.class);
             Call<InvoiceDataModel> call = inventoryInterface.saveInvoice(GlobalVariables.token, dataObj);

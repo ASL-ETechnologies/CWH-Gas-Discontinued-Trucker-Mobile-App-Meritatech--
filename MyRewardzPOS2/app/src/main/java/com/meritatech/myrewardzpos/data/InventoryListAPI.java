@@ -19,9 +19,45 @@ import retrofit2.Response;
 public class InventoryListAPI extends APIBase<InventoryDataObj> {
     final MyPosBase myPosBase = new MyPosBase();
 
-    public void InventoryListAPICall()
+    public void InventoryListAPICall() {
 
-    {
+        try {
+            final ArrayList<InventoryRecord> records = InventoryRecord.findAllRecords(InventoryRecord.class);
+
+            PosServicesInterface inventoryInterface =
+                    ApiClient.getClient().create(PosServicesInterface.class);
+            Call<InventoryListAPI> call = inventoryInterface.inventoryList(GlobalVariables.ParentId, GlobalVariables.storeId, GlobalVariables.token, GlobalVariables.salesmanId);
+            Response<InventoryListAPI> response = call.execute();
+            if (response.isSuccessful()) {
+                try {
+                    InventoryListAPI reesponse = response.body();
+                    if (records != null && records.size() < reesponse.DataObj.Data.size()) {
+                        if (response.body().StatusCode == 0) {
+                            InventoryRecord.deleteAll(InventoryRecord.class);
+                            myPosBase.saveInventory(reesponse.DataObj.Data);
+                        }
+                    } else {
+                        if (response.body().StatusCode == 0) {
+                            InventoryRecord.deleteAll(InventoryRecord.class);
+                            myPosBase.saveInventory(reesponse.DataObj.Data);
+                        }
+                    }
+                } catch (Exception e) {
+                    Utilities.LogException(e);
+                }
+            } else {
+                Utilities.LogException(new Exception("Failure Retrieving Inventory!"));
+            }
+
+
+        } catch (Exception ex) {
+            Utilities.LogException(ex);
+        }
+
+    }
+
+
+    public void InventoryListAPICallAsync() {
 
         try {
             final ArrayList<InventoryRecord> records = InventoryRecord.findAllRecords(InventoryRecord.class);
@@ -66,7 +102,6 @@ public class InventoryListAPI extends APIBase<InventoryDataObj> {
         }
 
     }
-
 
     public InventoryRecord getInventoryByItemNumber(String itemNumber) {
         InventoryRecord inventoryRecord = myPosBase.GetInventoryByItemNo(itemNumber);

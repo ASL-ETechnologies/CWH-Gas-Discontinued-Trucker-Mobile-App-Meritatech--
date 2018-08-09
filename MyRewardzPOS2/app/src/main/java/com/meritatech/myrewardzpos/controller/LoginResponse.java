@@ -106,6 +106,13 @@ public class LoginResponse {
         return taxIncluded;
     }
 
+    @SerializedName("maxErrorLogRecords")
+    public String maxErrorLogRecords;
+
+    public String getmaxErrorLogRecords() {
+        return maxErrorLogRecords;
+    }
+
 
     @SerializedName("storeAddress")
     public String StoreAddress;

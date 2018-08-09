@@ -2,6 +2,7 @@ package com.meritatech.myrewardzpos.data;
 
 //import com.meritatech.myrewardzpos.Db.InventoryDAO;
 
+import com.meritatech.myrewardzpos.controller.GlobalVariables;
 import com.meritatech.myrewardzpos.controller.Inventory;
 import com.meritatech.myrewardzpos.database.SugarRecord;
 import com.meritatech.myrewardzpos.model.DatabaseObject;
@@ -442,6 +443,15 @@ public class MyPosBase extends SugarRecord {
     public static ArrayList<LogRecord> GetUnSentLogs(String sent) {
         ArrayList<LogRecord> result = (ArrayList<LogRecord>) SugarRecord.find(LogRecord.class, "SENT = ?", sent);
         return result;
+    }
+
+    public static void DeleteOldLogs() {
+        Long allLogs = LogRecord.count(LogRecord.class);
+        if(allLogs != null && allLogs > Integer.valueOf(GlobalVariables.MaxErrorLogsRecords )) {
+            LogRecord.executeQuery("delete from LOG_RECORD where ID not in (select ID from LOG_RECORD order by ID desc limit" + GlobalVariables.MaxErrorLogsRecords + ")");
+        }
+
+
     }
 
 
